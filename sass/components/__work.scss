@@ -1,0 +1,41 @@
+/* WORK */
+
+.work {
+    text-align: center;
+  }
+  .work__title {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--main-color);
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+  
+  .work__list {
+    display: flex;
+  
+    gap: 30px;
+  }
+  
+  .work__wrap {
+    position: relative;
+  }
+  
+  .work__photo-text {
+    position: absolute;
+    bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+  

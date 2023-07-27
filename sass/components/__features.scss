@@ -1,0 +1,39 @@
+/* FEATURES */
+
+
+
+.features__list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .features__iconList {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+    border-radius: 4px;
+  }
+  
+  .features__iconSvg {
+    display: block; /* Убирает пустое пространство вокруг SVG */
+    margin: auto; /* Центрирует SVG по горизонтали и вертикали */
+  }
+  
+  .features__item-title {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: calc(16.41 / 14);
+    color: var(--main-color);
+  }
+  .features__item-text {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: calc(24 / 14);
+    color: var(--second-color);
+  }
